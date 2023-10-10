@@ -1,4 +1,34 @@
-h1 {
-    font-size: 30px;
-    color: green;
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title span{
+    color: #15699a;
+}
+.navegation{
+    background-color: #e1e1e1;
+}
+.navegation a {
+    text-transform: uppercase;
+}
+
+/* Box Model */
+.about-us {
+    background-color: purple;
+    width: 200px;
+    padding: 12px;
+}
+
+.about-company{
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
 }

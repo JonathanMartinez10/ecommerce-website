@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce-Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
-</head>
+</head>  
 <body>
     <header>
-        <h1>Tienda Mubles</h1>
+        <h1 class="title">Tienda <span>Muebles</span> </h1>
     </header>
 
-    <nav>
+    <nav class="navegation">
         <a href="index.html">Inicio</a>
         <a href="about-us.html">Nosotros</a>
         <a href="store.html">Tienda</a>
@@ -21,7 +22,7 @@
     </nav>
 
     <section>
-        <h2>Categorias de Productos</h2>
+        <h2>Categorias de <span>Productos</span></h2>
         
         <div>
             <img src="images/categoria1.jpg" alt="Image not found" >
@@ -40,7 +41,15 @@
 
     </section>
 
-    <section>
+    <section class="about-us">
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quidem nulla. Nobis dicta, reiciendis quidem assumenda animi dolor laboriosam ea, distinctio numquam temporibus earum ducimus, minus quia ex! Architecto, nihil.
+            Tenetur eius architecto pariatur ex expedita quia vero impedit, nobis adipisci fugit atque eaque dolorum alias vitae facere nisi, blanditiis nesciunt quaerat aut, ratione dolore itaque doloremque accusantium voluptatem! Autem.</p>
+        </div>
+    </section>
+
+    <section class="about-company">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quidem nulla. Nobis dicta, reiciendis quidem assumenda animi dolor laboriosam ea, distinctio numquam temporibus earum ducimus, minus quia ex! Architecto, nihil.
@@ -132,7 +141,7 @@
         <div>
             <h3>Categorias</h3>
             
-            <nav>
+            <nav id="navegation">
                 <a href="#">Cocina</a>
                 <a href="#">Oficina</a>
                 <a href="#">Jardin</a>
@@ -144,7 +153,7 @@
         <div>
             <h3>Sobre Nosotros</h3>
 
-            <nav>
+            <nav class="navegation">
                 <a href="#">Nuestra Historia</a>
                 <a href="#">Mision, Vision y Valores</a>
                 <a href="#">Carreras</a>
