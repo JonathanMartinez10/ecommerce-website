@@ -26,3 +26,13 @@ En css todo es una caja y su forma o medidas depende de 4 cosas
 * Border
 * Margin 
 */
+
+/* 
+Display inline and block
+
+inline: no se puede poner width and hight
+
+block: se posicionan uno debajo de otro
+
+inline-block: puedes poner width and hight y se alinean inline 
+*/
