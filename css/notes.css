@@ -1,10 +1,10 @@
-/* Epecificidad */
+/*? Epecificidad */
 /* 
 1 2 3 4
 0 0 0 0 
 */
 
-/* 
+/*?
 1. Notacion !Important
 2. Id's
 3. Clases
@@ -15,19 +15,20 @@
 
 /* Modulos, BEM, SMACSS */
 
-/* 
+/*? 
 Box Model
 En css todo es una caja y su forma o medidas depende de 4 cosas 
 */
 
 /* 
-* Content
-* Padding
-* Border
-* Margin 
+ Content
+ Padding
+ Border
+ Margin 
 */
 
-/* 
+/*?  Displays basicos
+
 Display inline and block
 
 inline: no se puede poner width and hight
@@ -36,3 +37,37 @@ block: se posicionan uno debajo de otro
 
 inline-block: puedes poner width and hight y se alinean inline 
 */
+
+/*?  Display FlexBox
+
+Por defecto flex-direction : row
+puede cambiar a flex-direction : column
+
+si estas en row
+Puede alinear horizontalmente con justify-content = ??? center, end, star, space-?
+
+Puedes alinear verticalmente con align-item = ??? checar chrome
+
+si estas en colum
+Puedes alinear :verticalmente con justify-content
+Puedes alinear :horizontalmente con align-item 
+*/
+
+
+/*? Grid
+
+display: grid
+
+Para crear columnas columns se usa grid-template-columns
+Para crear filas rows se usa grid-template-rows
+Tambien se puede definir un diseño con  grid-template-areas
+
+Terminologia
+
+Grid Lines: Son las lineas que se crean al crear un grid contorno
+
+Grid Track: La parte central-medio del grid ya sea hor o vertical
+
+Grid Cell: Cuando se usa columns y rows a cada uno de esos son cells celdas
+
+Grid Area: Cuando decides usar nombres en el grid */
