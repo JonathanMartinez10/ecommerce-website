@@ -105,3 +105,22 @@ img{
     gap: 2rem;
 }
 
+/** About us  */
+.about-us{
+    background-image: linear-gradient( to right, transparent 50%, #15699a 50%, #15699a 100% ), url('../images/nosotros.jpg');
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+} 
+/* Es mas facil crear este diseño con Flexbox */
+.about-us-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+}
+
+.about-us-text{
+    grid-column: 2 / 3;
+    color: #fff;
+}
