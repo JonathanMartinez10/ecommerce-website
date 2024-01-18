@@ -1,18 +1,32 @@
 /*? Epecificidad */
 /* 
-1 2 3 4
-0 0 0 0 
+0 0 0 0
+
+1. Notacion !Important
+2. Id's
+3. Classes
+4. Etiquetas 
+
+examples:
+
+nav a {}
+0 0 0 2
+
+.navegation a {}
+0 0 1 1
+
+#navegation a {}
+0 1 0 1
+
+nav {
+    color: green!important;
+}
+1 0 0 0
+
 */
 
 /*?
-1. Notacion !Important
-2. Id's
-3. Clases
-4. Etiquetas 
-*/
-
-/* Estilos de escribir CSS */
-
+/** Estilos de escribir CSS */
 /* Modulos, BEM, SMACSS */
 
 /*? 
@@ -45,12 +59,11 @@ puede cambiar a flex-direction : column
 
 si estas en row
 Puede alinear horizontalmente con justify-content = ??? center, end, star, space-?
-
 Puedes alinear verticalmente con align-item = ??? checar chrome
 
 si estas en colum
-Puedes alinear :verticalmente con justify-content
 Puedes alinear :horizontalmente con align-item 
+Puedes alinear :verticalmente con justify-content
 */
 
 
@@ -58,16 +71,47 @@ Puedes alinear :horizontalmente con align-item
 
 display: grid
 
-Para crear columnas columns se usa grid-template-columns
-Para crear filas rows se usa grid-template-rows
-Tambien se puede definir un diseño con  grid-template-areas
+Para crear columnas columns se usa: grid-template-columns
+Para crear filas rows se usa: grid-template-rows
+Tambien se puede definir un diseño con: grid-template-areas
 
 Terminologia
 
-Grid Lines: Son las lineas que se crean al crear un grid contorno
+Grid Lines: Son las lineas que se crean al crear un grid "contorno"
 
-Grid Track: La parte central-medio del grid ya sea hor o vertical
+Grid Track: La parte central-medio del grid ya sea horizontal o vertical
 
-Grid Cell: Cuando se usa columns y rows a cada uno de esos son cells celdas
+Grid Cell: Cuando se usa columns y rows a cada uno de esos "espacios" son cells celdas
 
-Grid Area: Cuando decides usar nombres en el grid */
+Grid Area: Cuando decides usar nombres en el grid 
+
+Se recomienda trabajar con "fr" como si fueran fracciones
+ejemplo: 
+    grid-template-columns: 1fr 2fr 1fr
+                        1/4, 1/2, 1/4
+
+
+
+/*?BEM-Block Element Modifier
+
+.box{}
+.box__title{}
+.box__image{}
+.box__boton{}
+.box__botton--active{}
+
+Utilidades
+.text-center{}
+.color-red-100{}
+.bg-blue-200{}
+.p-2{}
+.m-2{}
+
+/*?Modulos CSS
+
+.card {}
+.card h2{}
+.card img{}
+.card a{}
+
+*/
